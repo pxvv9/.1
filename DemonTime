@@ -2,26 +2,26 @@ local old
 old = hookfunction(game.HttpGet, function(self, url)
     if type(url) == "string" then
         if string.match(url, "xk5ng.github.io/WL") or string.match(url, "xk5ng.github.io/Secret") or string.match(url, "xk5ng.github.io/SBTest") or string.match(url, "xk5ng.github.io/WhiteListTest") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Whitelisted")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/Whitelisted")
         end
         if string.match(url, "xk5ng.github.io/encrypt") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Encrypt")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/Encrypt")
         end
         if string.match(url, "xk5ng.github.io/Annc") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Annc")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/annc")
         end
         if string.match(url, "xk5ng.github.io/Blacklisted") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Blacklisted")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/Blackliste")
         end
         if string.match(url, "xk5ng.github.io/Notify") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Notify")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/Notify")
         end
         if string.match(url, "xk5ng.github.io/alert") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/alert")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/alert")
         end
         if string.match(url, "xk5ng.github.io/") then
             print(url)
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Status")
+            return game:HttpGet("https://raw.githubusercontent.com/pxvv9/others/main/Status")
         end
         if string.match(url, "raw%.githubusercontent%.com/zxrorocks/test%-repo/main/test") then
             return "nah"
@@ -52,4 +52,4 @@ if game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/test
 	game.Players.LocalPlayer:Kick("Your executor does not support hookfunction (💀)")
         return
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Stand"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pxvv9/.1/main/Stand"))()
